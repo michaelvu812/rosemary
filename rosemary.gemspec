@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<httparty>, ["~> 0.11.0"])
+      s.add_runtime_dependency(%q<httparty>, ["~> 0.15.6"])
       s.add_runtime_dependency(%q<libxml-ruby>, [">= 2.8.0"])
       s.add_runtime_dependency(%q<builder>, [">= 2.1.2"])
       s.add_runtime_dependency(%q<oauth>, [">= 0.4.7"])
@@ -43,7 +43,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<redcarpet>, [">= 3.2.3"])
       s.add_development_dependency(%q<codeclimate-test-reporter>)
     else
-      s.add_dependency(%q<httparty>, ["~> 0.11.0"])
+      s.add_dependency(%q<httparty>, ["~> 0.15.6"])
       s.add_dependency(%q<libxml-ruby>, [">= 2.8.0"])
       s.add_dependency(%q<builder>, [">= 2.1.2"])
       s.add_dependency(%q<oauth>, [">= 0.4.7"])
@@ -57,7 +57,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<codeclimate-test-reporter>)
     end
   else
-    s.add_dependency(%q<httparty>, ["~> 0.11.0"])
+    s.add_dependency(%q<httparty>, ["~> 0.15.6"])
     s.add_dependency(%q<libxml-ruby>, [">= 2.8.0"])
     s.add_dependency(%q<builder>, [">= 2.1.2"])
     s.add_dependency(%q<oauth>, [">= 0.4.7"])
